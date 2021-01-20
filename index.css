@@ -1,0 +1,163 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+/*	margin: 0;*/
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	box-sizing: border-box;
+}
+.container{
+	font-family:'Roboto Mono';
+}
+h1{
+    font-family:'Chelsea Market';
+    font-size:480%;
+	margin:auto;
+	padding-top:40px;
+	padding-bottom:20px;
+	margin-top:20px;
+}
+nav{
+	padding:5%;
+	margin:auto;
+}
+ul{
+    list-style-type: none;
+    margin: auto;
+    padding:0;
+}
+li{
+    display:inline;
+}
+button{
+
+    color:white;
+    border: none;
+    padding:4px 30px;
+    text-align:center;
+    font-size:18px;
+    border-radius: 20px;
+}
+.btn1{
+    background-color: #FF764E;
+	position:absolute;
+	right:80%;
+}
+.btn2{
+    background-color:#5ED3EB;
+	position:absolute;
+	right: 60%;
+}
+.btn3{
+    background-color:#FFCD69;
+	position:absolute;
+	right: 40%;
+}
+#header_img{
+	float:left;
+    width:25%;
+	margin-left:7%;
+	border-radius:50%;
+	padding:15px;
+}
+p{
+	letter-spacing:1.5px;
+	text-align:center;
+	line-height:1.5}
+.ph{
+	display:flex;
+	float:right;
+	width:65%;
+	padding-left:-20%;
+	padding-right:20%;
+	font-size:150%;
+}
+#p2{
+	padding-left:5%;
+}
+
+#section1{
+	background-color:#DDB9A3;
+	margin:2%;
+	text-align:center;
+	display:inline-block;
+	width:90%;
+
+	color:white;
+	font-size:24px;
+	line-height:1.5;
+}
+footer.bottom {
+	background-color:#F9E7DC;
+	position: absolute;
+	left:0;
+	bottom:0;
+}
+footer.btn1{
+	position:relative;
+	right:40%;
+}
+span{
+	font-weight:bold;
+}
+#campfire-img{
+	width:10%;
+	height:10%;
+	position:relative;
+	left:45%;
+}
+#section2 p{
+	padding:0 38% 0 38%;
+}
+#ambulance_img{
+	width:10%;
+	height:10%;
+	position:relative;
+	left:45%;
+	padding-top:5%;
+}
+#section3 p{
+	padding:0 38% 0 38%;
+}
+#footer_img{
+	width:150%;
+	height:375px;
+}
